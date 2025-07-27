@@ -6,6 +6,10 @@ import Hero from "../../components/Home/Hero/Hero"
 import Destination from "../../components/Home/Destination/Destination";
 import Hotel from "../../components/Home/Hotel/Hotel";
 import WhyChooseUs from "../../components/Home/WhyChooseUs/WhyChooseUs";
+import Review from "../../components/Home/Reviews/Review";
+import Newsletter from "../../components/Home/NewsLetter/Newsletter";
+import Footer from "../../components/Home/Footer/Footer";
+import TopDestinations from "../../components/Home/TopDestinations/TopDestinations";
 
 const font = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -30,8 +34,11 @@ export default function RootLayout({
         <Destination />
         <Hotel />
         <WhyChooseUs />
+        <TopDestinations />
+        <Review />
+        <Newsletter />
+        <Footer />
         {children}
-        <footer>Footer</footer>
       </body>
     </html>
   );

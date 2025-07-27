@@ -1,5 +1,3 @@
-// Navbar information
-
 export const navLinks = [
   {
     id: 1,

@@ -46,7 +46,7 @@ const SearchBox = () => {
                         <p className='text-base font-normal'>1 Guest 1 Room</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     )

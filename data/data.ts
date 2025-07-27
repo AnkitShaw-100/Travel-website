@@ -1,4 +1,3 @@
-// Static Data
 export const destinationData = [
   {
     id: 1,
@@ -140,57 +139,65 @@ export const reviewData = [
   {
     id: 1,
     name: "John Doe",
-    review:
-      "The service exceeded my expectations. The team was professional, and I couldn't be happier with the results. Highly recommended to everyone!",
+    designation: "Marketing Manager",
+    rating: 5,
+    review: "The service exceeded my expectations. The team was professional, and I couldn't be happier with the results. Highly recommended!",
     image: "/images/u1.jpg",
   },
   {
     id: 2,
     name: "Jane Smith",
-    review:
-      "I am thoroughly impressed with the attention to detail and quality. They truly understand customer needs and deliver outstanding results. Wonderful experience!",
+    designation: "Creative Director",
+    rating: 4,
+    review: "Thoroughly impressed with the attention to detail and quality. Wonderful experience!",
     image: "/images/u2.jpg",
   },
   {
     id: 3,
     name: "Michael Brown",
-    review:
-      "Exceptional quality and fantastic customer service! The project was delivered on time and exactly as I wanted. I will definitely use their services again.",
+    designation: "Startup Founder",
+    rating: 5,
+    review: "Exceptional quality and fantastic customer service! Will definitely use again.",
     image: "/images/u3.jpg",
   },
   {
     id: 4,
     name: "Emily Davis",
-    review:
-      "Outstanding results! The team was efficient, and their professionalism was remarkable. Everything was done perfectly. I highly recommend their expertise to everyone.",
+    designation: "Freelancer",
+    rating: 4,
+    review: "Outstanding results and great professionalism. Everything was done perfectly.",
     image: "/images/u1.jpg",
   },
   {
     id: 5,
     name: "Chris Wilson",
-    review:
-      "Amazing service! They exceeded all expectations and delivered a product that I am extremely happy with. The communication throughout the project was excellent.",
+    designation: "Project Manager",
+    rating: 5,
+    review: "Amazing service! Communication throughout the project was excellent.",
     image: "/images/u2.jpg",
   },
   {
     id: 6,
     name: "Sarah Johnson",
-    review:
-      "Fantastic experience! They listened carefully to my requirements and delivered exactly what I needed. Their attention to detail is truly commendable.",
+    designation: "UI/UX Designer",
+    rating: 4,
+    review: "Fantastic experience! Their attention to detail is truly commendable.",
     image: "/images/u3.jpg",
   },
   {
     id: 7,
     name: "David Lee",
-    review:
-      "Absolutely incredible service! The team was supportive and responsive, making sure everything was perfect. I will definitely recommend them to my friends.",
+    designation: "Entrepreneur",
+    rating: 5,
+    review: "Absolutely incredible service! I will definitely recommend them to friends.",
     image: "/images/u1.jpg",
   },
   {
     id: 8,
     name: "Sophia White",
-    review:
-      "Five-star service from start to finish! The dedication and skill of the team made all the difference. Truly an exceptional experience I won’t forget.",
+    designation: "Photographer",
+    rating: 5,
+    review: "Five-star service from start to finish! Truly an exceptional experience.",
     image: "/images/u2.jpg",
   },
 ];
