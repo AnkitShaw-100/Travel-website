@@ -14,21 +14,6 @@ type Destination = {
   travelers: number;
 };
 
-// Custom Dot Component
-const CustomDot = ({
-  onClick,
-  active,
-}: {
-  onClick?: () => void;
-  active?: boolean;
-}) => (
-  <li
-    onClick={onClick}
-    className={`w-3 h-3 rounded-full border-2 mx-1 cursor-pointer transition-all duration-300
-      ${active ? "bg-black border-black" : "border-gray-400 bg-transparent"}`}
-  />
-);
-
 // Responsive configuration
 const responsive = {
   superLargeDesktop: {
@@ -63,14 +48,11 @@ const DestionationSlider = () => {
       keyBoardControl
       swipeable={false}
       draggable={false}
-      showDots
-      renderDotsOutside
-      customDot={<CustomDot />}
       customTransition="all .5"
       transitionDuration={500}
       containerClass="relative"
       removeArrowOnDeviceType={["tablet", "mobile"]}
-      dotListClass="flex justify-center items-center gap-2 mt-6"
+      itemClass="px-2"
       customLeftArrow={
         <button
           aria-label="Previous Slide"
@@ -87,7 +69,6 @@ const DestionationSlider = () => {
           <FaChevronRight className="w-4 h-4" />
         </button>
       }
-      itemClass="px-2"
     >
       {destinationData.map((data) => (
         <div key={data.id} className="m-3">

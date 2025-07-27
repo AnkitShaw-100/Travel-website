@@ -4,6 +4,8 @@ import "./globals.css";
 import Nav from "../../components/Home/Navbar/Nav";
 import Hero from "../../components/Home/Hero/Hero"
 import Destination from "../../components/Home/Destination/Destination";
+import Hotel from "../../components/Home/Hotel/Hotel";
+import WhyChooseUs from "../../components/Home/WhyChooseUs/WhyChooseUs";
 
 const font = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -26,6 +28,8 @@ export default function RootLayout({
         <Nav />
         <Hero />
         <Destination />
+        <Hotel />
+        <WhyChooseUs />
         {children}
         <footer>Footer</footer>
       </body>
