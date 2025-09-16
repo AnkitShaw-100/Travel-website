@@ -1,40 +1,45 @@
-```markdown
-# 🏡 Real Estate UI – Next.js Project
+---
+# � Travel Website – Next.js Project
 
-A modern, responsive real estate front-end application built with **Next.js** and **Tailwind CSS**. This project showcases premium properties, hotels, and services through elegant UI components like carousels, cards, and user testimonials.
+A modern, responsive travel website built with **Next.js** and **Tailwind CSS**. Discover top destinations, book hotels, read reviews, and get inspired for your next adventure—all in one place.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Next.js 14**
-- **React 18**
-- **Tailwind CSS**
+- **Next.js 15**
+- **React 19**
+- **Tailwind CSS 4**
+- **TypeScript**
 - **React Icons**
-- **Heroicons / Custom SVGs**
 - **Swiper.js** (for sliders)
+- **React Multi Carousel**
 - **Next/Image** (optimized images)
 
 ---
 
-## 📸 Features
+## ✨ Features
 
-- ✅ Clean and elegant homepage design
-- 🏨 Hotel slider using Swiper.js
-- 📦 Reusable components: SectionHeading, Cards, Sliders
-- 💡 "Why Choose Us" section with engaging animated cards
-- 📱 Fully responsive layout for all devices
+- 🏖️ Hero section with video background and search
+- 🌍 Explore popular destinations with image carousels
+- 🏨 Best hotels & accommodations slider
+- �️ Top destinations grid
+- 💡 "Why Choose Us" with animated feature cards
+- 📝 Newsletter signup
+- ⭐ User reviews/testimonials slider
+- 📱 Fully responsive and mobile-friendly
+- 🧩 Modular, reusable components
 
 ---
 
-## 🔧 Getting Started
+## 🏁 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/real-estate-ui.git
-cd real-estate-ui
-````
+git clone https://github.com/AnkitShaw-100/Travel-website.git
+cd Travel-website
+```
 
 ### 2. Install dependencies
 
@@ -56,7 +61,17 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ---
 
-## 📄 License
+## � Project Structure
+
+- `components/` – UI components (Hero, Hotel, Destination, Reviews, etc.)
+- `data/` – Static data for destinations, hotels, tours, and reviews
+- `public/images/` – Images and video assets
+- `src/app/` – Main app entry, layout, and global styles
+- `constant/` – Navigation and other constants
+
+---
+
+## �📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
@@ -64,4 +79,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## ✨ Credits
 
-Built by [Ankit Shaw](https://github.com/AnkitShaw-100) with ❤️ using Next.js.
+Built by [Ankit Shaw](https://github.com/AnkitShaw-100) with ❤️ using Next.js and Tailwind CSS.
