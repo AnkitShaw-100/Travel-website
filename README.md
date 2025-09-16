@@ -1,4 +1,3 @@
----
 # Travel Website – Next.js Project
 
 A modern, responsive travel website built with **Next.js** and **Tailwind CSS**. Discover top destinations, book hotels, read reviews, and get inspired for your next adventure—all in one place.
