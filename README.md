@@ -60,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ---
 
-## � Project Structure
+##  Project Structure
 
 - `components/` – UI components (Hero, Hotel, Destination, Reviews, etc.)
 - `data/` – Static data for destinations, hotels, tours, and reviews
@@ -70,7 +70,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ---
 
-## �📄 License
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
